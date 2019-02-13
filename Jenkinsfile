@@ -1,42 +1,42 @@
 pipeline {
     agent { any }
     stages {
-        stage('Build') { 
+        stage('Build') {
             steps {
                 sh 'echo'
             }
         }
-        stage('Unit Test') { 
+        stage('Unit Test') {
             steps {
                 sh 'echo'
             }
         }
-        stage('Manual Validation') { 
+        stage('Manual Validation') {
             steps {
                 sh 'echo'
             }
         }
-        stage('Release to Code Repo') { 
+        stage('Release to Code Repo') {
             steps {
                 sh 'echo'
             }
         }
-        stage('Release Note Produced') { 
+        stage('Release Note Produced') {
             steps {
                 sh 'echo'
             }
         }
-        stage('Change Process') { 
+        stage('Change Process') {
             steps {
                 sh 'echo'
             }
         }
-        stage('Deployment') { 
+        stage('Deployment') {
             steps {
                 sh 'echo'
             }
         }
-        stage('Functional Testing') { 
+        stage('Functional Testing') {
             steps {
                 sh 'echo'
             }
